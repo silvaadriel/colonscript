@@ -10,13 +10,7 @@
       </div>
     </div>
     <div class="hero-foot has-text-centered">
-      <svg
-        class="arrow has-text-primary"
-        xmlns="http://www.w3.org/2000/svg"
-        width="70"
-        height="70"
-        viewBox="0 0 24 24"
-      >
+      <svg class="arrow has-text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
       </svg>
     </div>
@@ -38,6 +32,8 @@ export default {
 <style scoped>
 .arrow {
   fill: #44475a;
+  width: 70px;
+  height: 70px;
 }
 
 .title.is-size-0 {
@@ -46,11 +42,12 @@ export default {
 
 @media screen and (max-width: 700px) {
   .title.is-size-0 {
-    font-size: 5rem;
+    font-size: 4.2rem;
   }
 
   .arrow {
-    font-size: 2rem;
+    width: 40px;
+    height: 40px;
   }
 }
 </style>
