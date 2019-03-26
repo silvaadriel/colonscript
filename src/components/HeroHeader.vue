@@ -10,7 +10,15 @@
       </div>
     </div>
     <div class="hero-foot has-text-centered">
-      <span class="arrow has-text-primary">⮟</span>
+      <svg
+        class="arrow has-text-primary"
+        xmlns="http://www.w3.org/2000/svg"
+        width="70"
+        height="70"
+        viewBox="0 0 24 24"
+      >
+        <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"></path>
+      </svg>
     </div>
   </section>
 </template>
@@ -29,7 +37,7 @@ export default {
 
 <style scoped>
 .arrow {
-  font-size: 3.5rem;
+  fill: #44475a;
 }
 
 .title.is-size-0 {
