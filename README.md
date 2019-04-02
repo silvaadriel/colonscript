@@ -1,4 +1,8 @@
-# colon-script
+# ColonScript
+
+Project created for **academic purposes.**
+
+Github pages: https://colonscript.tk
 
 ## Project setup
 ```
