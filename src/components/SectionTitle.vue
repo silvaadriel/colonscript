@@ -6,17 +6,17 @@
 
 <script>
 export default {
-  name: "SectionTitle",
+  name: 'SectionTitle',
   props: {
     title: {
       type: String,
-      default: ""
+      required: true,
     },
     color: {
       type: String,
-      default: "has-text-dark"
-    }
-  }
+      default: 'has-text-dark'
+    },
+  },
 };
 </script>
 
