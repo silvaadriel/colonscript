@@ -7,10 +7,6 @@
 <script>
 export default {
   name: "SectionTitle",
-  data() {
-    return {};
-  },
-
   props: {
     title: {
       type: String,
