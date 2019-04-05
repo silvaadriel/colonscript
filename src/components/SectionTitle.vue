@@ -1,26 +1,22 @@
 <template>
   <div class="container has-text-centered">
-    <h1 :class="`title ${color}`">{{ title }}</h1>
+    <h1 :class="['title', color]">{{ title }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "SectionTitle",
-  data() {
-    return {};
-  },
-
+  name: 'SectionTitle',
   props: {
     title: {
       type: String,
-      default: ""
+      required: true,
     },
     color: {
       type: String,
-      default: "has-text-dark"
-    }
-  }
+      default: 'has-text-dark'
+    },
+  },
 };
 </script>
 
