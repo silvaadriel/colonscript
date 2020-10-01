@@ -2,8 +2,6 @@
 
 Project created for **academic purposes.**
 
-Github pages: https://colonscript.tk
-
 ## Project setup
 ```
 npm install
